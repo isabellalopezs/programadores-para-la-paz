@@ -1,0 +1,7 @@
+pwd
+ls
+mkdir "Semana 2"
+cd "Semana 2"
+touch preguntas-semana2.txt
+touch comandos-terminal.txt
+touch reflexion-semana2.txt
