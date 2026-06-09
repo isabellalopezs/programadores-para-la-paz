@@ -1,0 +1,16 @@
+1. Ruta Raíz (GET /)
+* ¿Qué ocurre?: El navegador Opera realiza una solicitud de lectura (GET) a la dirección base del servidor. Este responde inmediatamente enviando un texto plano que confirma que el backend está encendido y escuchando de manera correcta.
+* Respuesta obtenida: "¡Servidor de la Semana 5 - Programadores para la Paz activo!"
+
+2. Ruta de Comunidad (GET /comunidad)
+* ¿Qué ocurre?: Al acceder a esta dirección desde Opera, el servidor procesa la solicitud de consulta y devuelve un objeto de datos estructurado en formato JSON. Esta ruta sirve para distribuir información pública y organizada sobre el estado de los módulos comunitarios.
+* Respuesta obtenida:
+  {
+    "mensaje": "Esta ruta distribuye información de forma clara y ordenada.",
+    "estado": "Activa",
+    "modulo": "Semana 5"
+  }
+
+3. Ruta de Envío (POST /reporte)
+* ¿Qué ocurre?: Esta ruta recibe datos estructurados que un usuario envía (por ejemplo, desde un formulario de reportes de la comunidad). El servidor procesa la información que viaja segura dentro del cuerpo de la petición ('req.body'), simula su recepción en la consola del backend y devuelve una confirmación en formato JSON junto con los datos recibidos.
+* Nota: No se prueba en el navegador directamente; se verifica mediante herramientas de desarrollo (como Thunder Client o Postman).node server.js

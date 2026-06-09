@@ -1,0 +1,10 @@
+1. ¿Qué hace esta ruta?
+Esta ruta utiliza el método HTTP POST para recibir datos estructurados enviados desde el cliente (un formulario web o una aplicación) hacia el servidor. A diferencia de una ruta GET, los datos en POST no viajan visibles en la URL del navegador, sino que se transportan de manera segura dentro del cuerpo de la petición (request body). El servidor recibe esta información a través de 'req.body' para procesarla, validarla y guardarla en el backend.
+
+2. ¿Para qué podría servir en una aplicación comunitaria?
+En una plataforma enfocada en la convivencia, la equidad y la cultura de paz, la ruta 'POST /reporte' actúa como un canal formal y seguro de participación ciudadana. Podría servir específicamente para:
+* Registrar reportes de problemas o necesidades de infraestructura en el barrio (ej. falta de iluminación, vías dañadas).
+* Enviar solicitudes confidenciales de mediación vecinal ante un conflicto comunitario.
+* Permitir a los ciudadanos registrar propuestas de proyectos sociales, eventos o talleres de paz.
+* Gestionar alertas comunitarias o sugerencias de forma segura, protegiendo la identidad y promoviendo una comunicación digital responsable.
+* Promover el trabajo colaborativo minimizando conflictos, permitiendo la asignación de roles, plazos y objetivos definidos para que el proceso de resolución sea completamente claro y transparente para todas las partes involucradas.
