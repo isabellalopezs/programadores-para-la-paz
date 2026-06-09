@@ -1,0 +1,5 @@
+Repositorio: Se puede ver como el cuaderno digital para programadores o aquellas personas que desean llevar la trazabilidad de sus proyectos en un entorno virtual y colaborativo. Este espacio permite que el código esté siendo actualizado periódicamente según se requiera, guardando de forma ordenada y segura cada documento, imagen o archivo que forme parte del desarrollo del software.
+
+Commit: Es la instrucción técnica que registra de forma detallada el cambio realizado en el código o en los archivos del proyecto en un momento específico. Funciona como una foto o un punto de control en la historia de nuestro cuaderno digital, guardando una descripción de lo que se modificó para que cualquiera pueda entender la evolución del trabajo.
+
+Push: Es la instrucción que envía y carga los cambios guardados desde nuestro entorno de trabajo local hacia el sistema remoto para que queden lanzados de forma definitiva. Mediante este comando, todos los commits que realizamos en la computadora se publican en la nube de GitHub, permitiendo que el proyecto esté actualizado en internet y visible para los demás.
