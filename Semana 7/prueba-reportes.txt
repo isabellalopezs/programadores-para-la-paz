@@ -1,0 +1,19 @@
+Al enviar una petición POST a la ruta http://localhost:3000/reportes con el siguiente JSON:
+
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+El servidor registra el reporte dentro del array reportes y devuelve una respuesta confirmando que fue guardado:
+
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+
+Luego, al consultar la ruta GET http://localhost:3000/reportes, el servidor muestra la lista de reportes registrados mientras el servidor está encendido.
