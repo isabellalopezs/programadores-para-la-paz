@@ -1,24 +1,25 @@
 # 🕊️ Programadores para la Paz - Isabella López
 
-Este repositorio reúne las actividades desarrolladas durante el programa **Programadores para la Paz**. Aquí se evidencia el proceso de aprendizaje semana a semana, usando herramientas como la terminal, GitHub, Node.js, Express, JSON y rutas para crear pequeños servicios relacionados con la participación comunitaria.
+Este repositorio reúne las actividades que he desarrollado durante el programa **Programadores para la Paz**. Aquí he ido organizando el trabajo por semanas, usando herramientas como la terminal, GitHub, Node.js, Express, JSON y comandos básicos de Linux.
 
-El repositorio está organizado por semanas para facilitar la revisión de cada actividad.
+La idea de este repositorio es mostrar mi proceso de aprendizaje y dejar evidencia de los ejercicios realizados en cada semana.
 
 ---
 
-## 🛠️ Herramientas utilizadas
+## 🛠️ Herramientas que he utilizado
 
-Durante el programa se han trabajado diferentes herramientas y comandos, entre ellos:
+Durante el programa he trabajado con diferentes herramientas, entre ellas:
 
-* Terminal de GitHub Codespaces.
-* Git y GitHub para guardar y publicar avances.
-* Node.js para ejecutar JavaScript desde el servidor.
-* npm para inicializar proyectos e instalar dependencias.
-* Express para crear servidores y rutas.
-* JSON para organizar e intercambiar información.
-* Métodos HTTP como `GET` y `POST`.
+* La terminal, para crear carpetas, archivos y moverme entre directorios.
+* Git y GitHub, para guardar avances y subirlos al repositorio.
+* GitHub Codespaces, como espacio de trabajo en línea.
+* Node.js, para ejecutar JavaScript desde el servidor.
+* Express, para crear servidores y rutas.
+* JSON, para organizar información.
+* Rutas `GET` y `POST`, para consultar y enviar datos.
+* Comandos básicos de Linux, para conocer el sistema y trabajar desde la terminal.
 
-Algunos comandos utilizados han sido:
+Algunos comandos que he usado son:
 
 ```bash
 git status
@@ -27,11 +28,24 @@ git commit -m "mensaje"
 git push
 ```
 
+También he usado comandos como:
+
+```bash
+mkdir
+touch
+cd
+ls
+cat
+echo
+uname -a
+whoami
+```
+
 ---
 
 ## 📁 Organización del repositorio
 
-El repositorio está organizado en carpetas por semana:
+El repositorio está organizado por semanas:
 
 * `Semana 1`
 * `Semana 2`
@@ -40,6 +54,7 @@ El repositorio está organizado en carpetas por semana:
 * `Semana 5`
 * `Semana 6`
 * `Semana 7`
+* `Semana 8`
 
 Cada carpeta contiene los archivos correspondientes a las actividades realizadas.
 
@@ -47,7 +62,7 @@ Cada carpeta contiene los archivos correspondientes a las actividades realizadas
 
 ## 🚀 Semana 4
 
-En la Semana 4 se trabajó la creación de un servidor básico con Node.js. Esta actividad permitió comprender cómo iniciar un servidor desde JavaScript y ejecutarlo desde la terminal.
+En la Semana 4 trabajé la creación de un servidor básico con Node.js. Esta actividad me permitió comprender cómo iniciar un servidor desde JavaScript y cómo ejecutarlo desde la terminal.
 
 Archivos principales:
 
@@ -58,7 +73,7 @@ Archivos principales:
 
 ## ⚡ Semana 5
 
-En la Semana 5 se trabajó con Express y con la creación de varias rutas en un servidor. Esta actividad permitió comprender cómo una API puede responder diferentes solicitudes y organizar información.
+En la Semana 5 trabajé con Express y con la creación de varias rutas en un servidor. Aprendí que una API puede responder a diferentes solicitudes y ayudar a organizar mejor la información.
 
 Archivos principales:
 
@@ -69,13 +84,13 @@ Archivos principales:
 * `pruebas.txt`
 * `reflexion-semana5.txt`
 
-Esta semana ayudó a relacionar la programación con la comunicación comunitaria, ya que una API permite organizar y compartir información de manera más clara.
+Esta semana me ayudó a entender cómo la programación puede relacionarse con la comunicación comunitaria, porque una API puede servir para compartir información de manera más clara y ordenada.
 
 ---
 
 ## 🌐 Semana 6
 
-En la Semana 6 se trabajó con JSON, Express, `req.body` y peticiones `POST`. En esta actividad se aprendió cómo un servidor puede recibir datos enviados por una persona y responder con información organizada.
+En la Semana 6 trabajé con JSON, Express, `req.body` y peticiones `POST`. En esta práctica aprendí cómo un servidor puede recibir información enviada por una persona y responder con datos organizados.
 
 Rutas trabajadas:
 
@@ -92,15 +107,18 @@ Archivos principales:
 * `package.json`
 * `package-lock.json`
 
-Esta semana permitió comprender cómo una plataforma puede recibir reportes o mensajes comunitarios usando datos estructurados.
+Esta semana fue importante porque permitió entender cómo una plataforma puede recibir mensajes o reportes comunitarios usando información estructurada.
 
 ---
 
 ## 📌 Semana 7
 
-En la Semana 7 se trabajó la creación de una API para registrar y consultar reportes comunitarios. La actividad permitió practicar el uso de arrays, rutas `GET`, rutas `POST` y almacenamiento temporal de información en memoria.
+En la Semana 7 trabajé con una API para registrar y consultar reportes comunitarios. Para esto se usó un array llamado `reportes`, donde se guardan temporalmente los datos mientras el servidor está encendido.
 
-La carpeta `Semana 7` contiene los archivos de la actividad correspondiente a esta semana.
+Rutas trabajadas:
+
+* `GET /reportes`: permite consultar los reportes registrados.
+* `POST /reportes`: permite agregar un nuevo reporte comunitario.
 
 Archivos principales:
 
@@ -110,14 +128,7 @@ Archivos principales:
 * `ejemplos-reportes.txt`
 * `reflexion-semana7.txt`
 
-El servidor de esta semana utiliza un array llamado `reportes`, donde se guardan temporalmente los reportes mientras el servidor está encendido.
-
-Rutas trabajadas:
-
-* `GET /reportes`: permite consultar los reportes registrados.
-* `POST /reportes`: permite agregar un nuevo reporte comunitario.
-
-Ejemplo de reporte usado:
+Un ejemplo de reporte trabajado fue:
 
 ```json
 {
@@ -126,30 +137,45 @@ Ejemplo de reporte usado:
 }
 ```
 
-Esta práctica permitió entender cómo una plataforma comunitaria puede servir para registrar situaciones, consultar reportes y organizar información ciudadana de forma clara y responsable.
+Esta práctica me ayudó a comprender que una plataforma comunitaria puede ser útil para registrar situaciones, consultar reportes y organizar mejor la información de la ciudadanía.
 
 ---
 
-## ✅ Aprendizajes principales
+## 🔐 Semana 8
 
-Durante estas semanas se han fortalecido aprendizajes relacionados con:
+En la Semana 8 trabajé temas relacionados con Linux, terminal, código abierto y seguridad digital. Esta actividad se enfocó en comprender la importancia de proteger plataformas comunitarias, cuidar credenciales y aplicar buenas prácticas de seguridad.
 
-* Creación y organización de carpetas y archivos.
-* Uso de Git y GitHub.
-* Manejo de la terminal.
-* Creación de servidores con Node.js y Express.
-* Uso de rutas `GET` y `POST`.
-* Manejo de información en formato JSON.
-* Uso de `req.body` para recibir datos.
-* Uso de arrays para almacenar información temporal.
-* Registro y consulta de reportes comunitarios.
-* Relación entre programación, comunicación digital y participación ciudadana.
+Archivos principales:
+
+* `preguntas-semana8.txt`
+* `sistema.txt`
+* `seguridad-plataformas.txt`
+* `reflexion-semana8.txt`
+* `seguridad/buenas-practicas.txt`
+
+En esta semana también practiqué comandos como:
+
+```bash
+uname -a
+whoami
+```
+
+El comando `uname -a` permite ver información general del sistema y el comando `whoami` permite identificar el usuario activo en la terminal.
+
+En el archivo `buenas-practicas.txt` se incluyeron prácticas como:
+
+* Usar contraseñas diferenciadas, combinando texto, números y caracteres especiales.
+* Activar doble verificación para proteger mejor el acceso a las cuentas.
+* Actualizar periódicamente el software para reducir riesgos de seguridad.
+
+Esta semana me permitió comprender que la seguridad digital no es solo un tema técnico, sino también una responsabilidad importante para proteger la información, mantener la confianza y cuidar la participación de las personas en plataformas comunitarias.
 
 ---
 
-## 📌 Estado actual
+## ✅ Aprendizajes
 
-El repositorio contiene las actividades desarrolladas hasta la **Semana 7**, organizadas por carpetas y publicadas en GitHub como evidencia del proceso formativo.
+Hasta ahora he aprendido a crear carpetas y archivos desde la terminal, usar GitHub para guardar avances, crear servidores con Node.js y Express, trabajar con JSON, usar rutas `GET` y `POST`, organizar reportes comunitarios y aplicar buenas prácticas básicas de seguridad digital.
+
+También he comprendido que la programación no solo sirve para crear aplicaciones, sino que puede apoyar procesos comunitarios, mejorar la comunicación, organizar información y fortalecer la participación de las personas.
 
 ---
-
