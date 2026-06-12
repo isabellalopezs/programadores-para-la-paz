@@ -1,0 +1,3 @@
+1. Usar contraseñas diferenciadas, combinando texto, números y caracteres especiales.
+2. Activar doble verificación para proteger mejor el acceso a las cuentas.
+3. Actualizar periódicamente el software para reducir riesgos de seguridad.
