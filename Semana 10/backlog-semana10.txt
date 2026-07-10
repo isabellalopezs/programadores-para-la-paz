@@ -1,0 +1,13 @@
+HISTORIAS DE USUARIO (Ordenadas de MAYOR a MENOR prioridad):
+
+1. Prioridad Alta:
+   Como ciudadano quiero registrar una incidencia en la plataforma para dejar evidencia formal del caso con sus detalles.
+
+2. Prioridad Alta:
+   Como miembro del equipo de veeduría quiero consultar los reportes acumulados para hacerles un seguimiento adecuado.
+
+3. Prioridad Media:
+   Como coordinador del proyecto quiero recibir una alerta automática en Telegram para revisar inmediatamente cada nuevo reporte que ingrese.
+
+4. Prioridad Baja:
+   Como ciudadano quiero ver un tablero público con los reportes resueltos para verificar la transparencia de la gestión.

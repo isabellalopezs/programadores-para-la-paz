@@ -1,0 +1,11 @@
+1. ¿Qué 2 tareas del backlog harías primero?
+* Historia 1 (Registrar una incidencia) e Historia 2 (Consultar reportes para seguimiento).
+
+2. ¿Por qué son las más importantes?
+* Porque constituyen la base funcional de cualquier sistema de veeduría. Sin un mecanismo de registro no existen datos que procesar, y sin una opción de consulta el equipo de trabajo no puede gestionar ni dar solución a las peticiones de la comunidad.
+
+3. ¿Qué significa para ti que una tarea esté “terminada”?
+Significa que la funcionalidad cumple con los siguientes criterios de aceptación:
+* El código funciona correctamente y cumple el objetivo sin errores.
+* Fue probada en el entorno local (usando el navegador o herramientas de petición).
+* Quedó guardada y registrada de forma limpia en el repositorio Git.
