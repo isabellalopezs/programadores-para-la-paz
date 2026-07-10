@@ -1,0 +1,7 @@
+La interfaz de la plataforma contará con una sección dedicada a un formulario para crear una nueva causa comunitaria, solicitando campos de título, descripción y fecha de registro. 
+
+Asimismo, dispondrá de una lista organizada con la vista de causas disponibles para que los usuarios puedan leerlas de manera clara y directa. 
+
+Cada una de las causas expuestas incluirá un botón interactivo para apoyar la iniciativa y un contador numérico de apoyos en tiempo real que refleje cuántas personas la han respaldado. 
+
+Toda la interfaz se mantendrá bajo un esquema visual claro, sencillo y transparente, asegurando que no se muestre información privada de los usuarios del sistema.
