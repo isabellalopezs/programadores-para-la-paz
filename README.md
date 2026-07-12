@@ -75,7 +75,9 @@ node server.js
   <li>Semana 7</li>
   <li>Semana 8</li>
   <li>Semana 9</li>
-  <li><b>Semana 10</b></li>
+  <li>Semana 10</li>
+  <li>Semana 11</li>
+  <li><b>Semana 12</b></li>
 </ul>
 
 <br>
@@ -102,55 +104,4 @@ node server.js
 <p>En esta semana se trabajó con JSON, Express, <code>req.body</code> y peticiones POST. La práctica permitió comprender cómo un servidor puede recibir información enviada por una persona y responder con datos organizados.</p>
 <ul>
   <li><b>Rutas trabajadas:</b> <code>POST /registro</code>, <code>POST /incidencia</code></li>
-  <li><b>Archivos principales:</b> <code>server.js</code>, <code>preguntas-semana6.txt</code>, <code>prueba-api.txt</code>, <code>ejemplo-incidencia.txt</code>, <code>reflexion-semana6.txt</code>, <code>package.json</code>, <code>package-lock.json</code></li>
-</ul>
-
-<br>
-
-<h3>📌 Semana 7</h3>
-<p>En esta semana se trabajó con una API para registrar y consultar reportes comunitarios. Se usó un array llamado reportes, donde se guardan temporalmente los datos mientras el servidor está encendido.</p>
-<ul>
-  <li><b>Rutas trabajadas:</b> <code>GET /reportes</code>, <code>POST /reportes</code></li>
-  <li><b>Archivos principales:</b> <code>server.js</code>, <code>preguntas-semana7.txt</code>, <code>prueba-reportes.txt</code>, <code>ejemplos-reportes.txt</code>, <code>reflexion-semana7.txt</code></li>
-</ul>
-
-<br>
-
-<h3>📌 Semana 8</h3>
-<p>En esta semana se trabajaron temas relacionados con Linux, terminal, código abierto y seguridad digital. La actividad se enfocó en comprender la importancia de proteger plataformas comunitarias, cuidar credenciales y aplicar buenas prácticas de seguridad.</p>
-<ul>
-  <li><b>Archivos principales:</b> <code>preguntas-semana8.txt</code>, <code>sistema.txt</code>, <code>seguridad-plataformas.txt</code>, <code>reflexion-semana8.txt</code>, <code>seguridad/buenas-practicas.txt</code></li>
-  <li><b>Buenas prácticas incluidas:</b>
-    <ul>
-      <li>Usar contraseñas diferenciadas, combinando texto, números y caracteres especiales.</li>
-      <li>Activar doble verificación para proteger mejor el acceso a las cuentas.</li>
-      <li>Actualizar periódicamente el software para reducir riesgos de seguridad.</li>
-    </ul>
-  </li>
-</ul>
-
-<br>
-
-<h3>📌 Semana 9</h3>
-<p>En esta semana se trabajó el tema de servidores, estabilidad, puertos, logs y continuidad operativa. La actividad permitió comprender que una aplicación no solo debe funcionar en pruebas, sino también mantenerse estable y segura cuando se ejecuta como servicio.</p>
-<ul>
-  <li><b>Rutas trabajadas:</b> <code>/</code>, <code>/estado</code></li>
-  <li><b>Archivos principales:</b> <code>server.js</code>, <code>preguntas-semana9.txt</code>, <code>ejecucion-servidor.txt</code>, <code>componentes-servidor.txt</code>, <code>reflexion-semana9.txt</code>, <code>package.json</code>, <code>package-lock.json</code></li>
-</ul>
-<p>La ruta principal muestra el mensaje <i>"Servidor activo y funcionando"</i>, mientras que la ruta <code>/estado</code> devuelve un JSON indicando la estabilidad operativa del servidor.</p>
-
-<br>
-
-<h3>📌 Semana 10</h3>
-<p>En esta semana se introdujeron los fundamentos del desarrollo colaborativo ágil y la automatización responsable aplicados a procesos de veeduría y participación ciudadana. Se estructuró un backlog mediante historias de usuario priorizadas y se diseñó una simulación de ciclo de trabajo (iteración) con criterios claros de aceptación. Asimismo, se planificó un flujo de alertas comunitarias con n8n y Telegram, enfatizando la protección estricta de datos personales y sensibles de los ciudadanos.</p>
-<ul>
-  <li><b>Archivos principales:</b> <code>preguntas-semana10.txt</code>, <code>backlog-semana10.txt</code>, <code>iteracion-semana10.txt</code>, <code>automatizacion-semana10.txt</code>, <code>reflexion-semana10.txt</code></li>
-</ul>
-
-<br>
-
-<h2>🎓 Aprendizajes principales</h2>
-
-<p>Durante el desarrollo de estas actividades he aprendido a gestionar archivos y carpetas desde la terminal profunda de Linux, administrar repositorios con Git y GitHub, implementar servicios y APIs con Node.js y Express, estructurar flujos de datos JSON y dominar métodos HTTP como GET y POST. Además de lo técnico, he incorporado buenas prácticas de seguridad digital y metodologías ágiles esenciales para la coordinación de equipos.</p>
-
-<p>A lo largo del programa he comprendido con claridad que la tecnología y la programación son herramientas poderosas para apoyar procesos comunitarios, optimizar canales de comunicación, resguardar información crítica con responsabilidad y, sobre todo, empoderar y fortalecer los mecanismos de participación ciudadana.</p>
+  <li><b>Archivos principales:</b> <code>server.js</code>, <code>preguntas-semana6.txt</code>, <code>prueba-api.txt</code>, <code>ejemplo-incidencia.txt</code>, <code>reflexion-semana6.txt</code>, <code>package
