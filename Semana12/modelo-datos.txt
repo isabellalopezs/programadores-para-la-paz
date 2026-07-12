@@ -1,0 +1,17 @@
+Entidad: Causa
+Campos principales:
+- id
+- titulo
+- descripcion
+- fecha
+Propósito: Almacenar la información detallada de las problemáticas, necesidades y propuestas de acción colectiva planteadas por la comunidad.
+
+------------------------------------------------------------------
+
+Entidad: Apoyo
+Campos principales:
+- id
+- causa_id
+- nombre
+- fecha
+Propósito: Registrar de forma segura los respaldos individuales que recibe cada causa para validar su relevancia y habilitar la generación automática de la petición formal.

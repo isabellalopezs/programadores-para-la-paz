@@ -1,0 +1,6 @@
+1. Un ciudadano accede a la plataforma con sus credenciales y crea una nueva causa comunitaria detallando la problemática actual.
+2. La causa se almacena de forma estructurada en la base de datos del sistema y se asigna un identificador único.
+3. Otros miembros de la comunidad ingresan al panel visual, leen las causas disponibles y deciden respaldar la iniciativa.
+4. El sistema registra de manera transparente cada apoyo, vinculándolo al ID de la causa respectiva, e incrementa su contador en tiempo real.
+5. Al cumplirse las condiciones o el tiempo límite, el sistema recopila de forma interna los datos agregados de la iniciativa.
+6. El sistema genera automáticamente un documento PDF formal con la estructura legal de un derecho de petición listo para ser descargado y radicado.

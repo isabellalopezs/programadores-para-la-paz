@@ -1,0 +1,5 @@
+Evento activador (Trigger): La generación exitosa del documento PDF formal de un derecho de petición o la creación de una nueva causa en la plataforma.
+
+Mensaje enviado: "Alerta Comunitaria: Se ha consolidado una nueva petición formal para la causa registrada. El documento técnico ya se encuentra disponible para su descarga y revisión en el servidor seguro."
+
+Información excluida por seguridad: Por políticas estrictas de privacidad y mitigación de riesgos, bajo ninguna circunstancia se enviarán contraseñas, nombres completos, documentos de identidad, números telefónicos ni direcciones residenciales exactas a través del canal de Telegram.
